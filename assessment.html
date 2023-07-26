@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="Logo.JPG">
+    <title>Assessment | EduHUT</title>
+    <link rel="stylesheet" type="text/css" href="assessment.css">
+    <link rel="stylesheet" href="./assets/css/simple-line-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Condensed:wght@300&family=Rubik&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="Logo.JPG" alt="Logo" width="180px" height="100px">
+        <input type="text" placeholder="Search">
+        <i class="icon-magnifier"></i>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="home.html">Courses</a>
+            </li>
+            <li>
+                <a href="assessment.html">Assessment</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="assessment">
+        <div id="start">Start Quiz</div>
+
+        <div id="guidelines">
+            <h2 id="rules-heading">Rules and Regulations</h2>
+            <p class="rules">1. You have to answer 10 questions.</p>
+            <p class="rules">2. Each question carry 1 mark.</p>
+            <p class="rules">3. Once you select your answer it can't be undone.</p>
+            <p class="rules">4. You will get points on the basis of your answers.</p>
+            <p class="rules">5. You can't exit from the quiz while you are playing.</p>
+
+            <button id="attempt">Attempt Quiz</button>
+        </div>
+
+        <div id="quiz">
+            <div id="header">
+                <h6>EduHUT Learning Quiz</h6>
+            </div>
+
+            <h2 class="question">Question</h2>
+            <input type="radio" name="answer" id="ans1" class="answer">
+            <label for="ans1" id="option1">Option 1</label><br>
+
+
+            <input type="radio" name="answer" id="ans2" class="answer">
+            <label for="ans2" id="option2">Option 2</label><br>
+
+            <input type="radio" name="answer" id="ans3" class="answer">
+            <label for="ans3" id="option3">Option 3</label><br>
+
+            <input type="radio" name="answer" id="ans4" class="answer">
+            <label for="ans4" id="option4">Option 4</label><br>
+
+            <button id="next">Next</button>
+        </div>
+
+        <div id="res">
+            <div id="showScore" class="scoreArea"></div>
+            <button id="playagain">Play Again</button>
+        </div>
+    </div>
+
+    </div>
+    <div class="blank"></div>
+
+    <footer>
+        <div class="footer">
+            <div class="div-1">
+                <h1><em>EduHUT Learning</em></h1>
+                <div class="icon">
+                    <i class="icon-social-facebook"></i>
+                    <a href=""></a>
+                    <i class="icon-social-instagram"></i>
+                    <a href="#"></a>
+                    <i class="icon-social-twitter"></i>
+                    <a href="#"></a>
+                    <i class="icon-social-linkedin"></i>
+                    <a href="#"></a>
+                </div>
+            </div>
+
+            <div class="footer-ql">
+                <p>QUICK LINKS</p>
+                <a href="home.html">Home</a>
+                <br>
+                <a href="about.html">About</a>
+                <br>
+                <a href="registration.html">Registration</a>
+                <br>
+                <a href="login.html">Login</a>
+                <br>
+            </div>
+
+            <div class="footer-ul">
+                <p>USEFUL LINKS</p>
+                <a href="#">Policy</a>
+                <br>
+                <a href="#">Send Feedback</a>
+                <br>
+                <a href="#">Terms of Use</a>
+            </div>
+
+            <div class="footer-care">
+                <p>STUDENT CARE</p>
+                <a href="#">Contact us</a>
+                <br>
+                <a href="#">Complaint/Inquiry form</a>
+                <br>
+                <a href="#">FAQ</a>
+                <br>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
